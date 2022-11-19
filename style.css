@@ -1,0 +1,276 @@
+body {
+	background: rgb(44, 119, 133);
+	height: 300px;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px 10px;
+}
+
+h1 {
+	color: rgb(63, 51, 51);
+	text-align: center;
+	width: 100%;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+*{
+	box-sizing: border-box;
+}
+
+
+
+
+.card {
+	background: rgb(29, 139, 176);
+	width: 350px;
+	height: 420px;
+	border-radius: 15px;
+	box-shadow: 7px 7px 10px rgb(37, 105, 156);
+	margin-top: 2.5%;
+	transition: all 1.2s ease-in-out;
+	
+}z
+
+.card:hover{
+	transform: scale(1.15);
+	position: relative;
+	z-index: 1;
+	box-shadow: 3px 3px 5px rgb(26, 136, 172);
+}
+
+.card__field {
+	width: 400px;
+	height: 300px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.card__field > div:first-child {
+	height: 300px;
+	box-sizing: border-box;
+}
+
+
+.cardbackground{
+	box-shadow: 7px 7px 10px rgb(36, 70, 96);
+	border-radius: 15px;
+	width: 300px;
+	height: 320px;
+}
+
+
+
+
+
+.img001{
+	width: 270px;
+	height: 270px;
+	margin-left: 25px;
+}
+
+.card13{
+	margin-top: 5px;
+	padding-top: 1%;
+	width: 200px;
+	height: 50px;
+	background: rgb(22, 158, 158);
+	border-radius: 15px 15px 15px 15px;
+	margin-left: 75px;
+	outline: 5px solid rgb(47, 167, 167);
+}
+
+
+
+
+
+.wrapper1{
+	margin-left: 125px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: x-large;
+	margin-bottom: -68%;
+	color: rgb(138, 143, 144);
+	text-shadow: 1px 2px rgb(37, 105, 156);
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card1{
+	background: rgb(29, 139, 176);
+	width: 350px;
+	height: 420px;
+	border-radius: 15px;
+	box-shadow: 7px 7px 10px rgb(42, 109, 161);
+	margin-left: 180px;
+	margin-top: 2.5%;
+	transition: all 1.2s ease-in-out;
+}
+
+
+.card1:hover{
+	transform: scale(1.15);
+	position: relative;
+	z-index: 1;
+	box-shadow: 3px 3px 5px rgb(29, 139, 176);
+
+}
+
+
+.card1_field{
+	width: 400px;
+	height: 300px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+
+.img002{
+	width: 270px;
+	height: 270px;
+	margin-top: 1.20%;
+	margin-left: 25px;
+}
+
+
+.card1__field > div:first-child {
+	height: 300px;
+	box-sizing: border-box;
+}
+
+
+.card12{
+	margin-top: 5px;
+	padding-top: 1%;
+	width: 200px;
+	height: 50px;
+	background: rgb(22, 158, 158);
+	border-radius: 15px 15px 15px 15px;
+	margin-left: 75px;
+	outline: 5px solid rgb(47, 167, 167);
+} 
+
+.button1{
+	margin-top: 4%;
+	margin-left: 85px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-color: rgb(85, 85, 93);
+	text-decoration: none;
+	border-radius: 10%;
+	
+}
+
+.wrapper{
+	margin-left: 125px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: x-large;
+	color: rgb(140, 145, 146);
+	text-shadow: 1px 2px rgb(41, 108, 159);
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card3{
+	background: rgb(29, 139, 176);
+	width: 350px;
+	height: 420px;
+	border-radius: 15px;
+	box-shadow: 7px 7px 10px rgb(42, 109, 161);
+	margin-left: 185px;
+	margin-top: 2.5%;
+	transition: all 1.2s ease-in-out;
+}
+
+
+.card3:hover{
+	transform: scale(1.15);
+	position: relative;
+	z-index: 1;
+	box-shadow: 3px 3px 5px rgb(29, 139, 176);
+
+}
+
+
+.card3_field{
+	width: 400px;
+	height: 300px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+
+.img002{
+	width: 270px;
+	height: 270px;
+	margin-top: 1.20%;
+	margin-left: 50px;
+}
+
+
+.card3__field > div:first-child {
+	height: 300px;
+	box-sizing: border-box;
+}
+
+
+.card13{
+	margin-top: 5px;
+	padding-top: 1%;
+	width: 200px;
+	height: 50px;
+	background: rgb(22, 158, 158);
+	border-radius: 15px 15px 15px 15px;
+	margin-left: 75px;
+	outline: 5px solid rgb(47, 167, 167);
+} 
+
+.button3{
+	margin-top: 4%;
+	margin-left: 85px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-color: rgb(85, 85, 93);
+	text-decoration: none;
+	border-radius: 10%;
+	
+}
+
+.wrapper{
+	margin-left: 125px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: x-large;
+	color: rgb(140, 145, 146);
+	text-shadow: 1px 2px rgb(41, 108, 159);
+	
+}
